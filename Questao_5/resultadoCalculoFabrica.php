@@ -6,9 +6,9 @@
 	<body>
 		<?php 
 			$custo  = $_GET['custoFabrica'];
- 			$distribuidor = 0.28;
-			$impostos = 0.45;
-			$custoTotal = (($custo*$impostos)+$custo)+(($custo*$distribuidor)+$custo);
+ 			$distribuidor = $_GET['percentagemDistribuidor'];
+			$impostos = $_GET['percentagemImpostos'];
+			$custoTotal = (($custo+($custo*($distribuidor/100)))+($custo+($custo*($impostos/100))));
 		
 			echo '<font color="blue"><h1 align="center">O custo do veiculo é ' . number_format($custoTotal,2,',','.') . '</h1></font>';
 		?>
