@@ -2,7 +2,7 @@
 <launchConfiguration type="org.eclipse.php.debug.core.launching.webPageLaunch">
 <booleanAttribute key="auto_generated_url" value="false"/>
 <stringAttribute key="bad_container_name" value="\workspace\Estudos"/>
-<stringAttribute key="base_url" value="http://localhost/workspace/Estudos/"/>
+<stringAttribute key="base_url" value="http://localhost/workspace/git/Estudos/"/>
 <stringAttribute key="debugOutputEncoding" value="UTF-8"/>
 <stringAttribute key="debugTransferEncoding" value="UTF-8"/>
 <stringAttribute key="file_name" value="/Estudos/Questao_2/eleitores.php"/>
