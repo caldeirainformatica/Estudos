@@ -7,7 +7,8 @@
 	$dias = $_POST['dias'];
 
 	
+	
 	$somatoria = 20150903 - $dias;
-	echo 'Seu ano de nascimento é :' . $somatoria;
+	echo 'A sua data de nascimento, configurada em ANO, MES e DIA é :' . $somatoria;
 
 ?>
