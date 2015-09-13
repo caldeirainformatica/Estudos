@@ -1,11 +1,8 @@
 	<!DOCTYPE html>
 	<html>
-		<head>
-			<meta charset="utf-8">
-			<title>Resultado</title>
-		</head>
-		<body>
-		
+	<?php include_once '..\..\head.php';?>
+<body>
+	<?php include_once '..\..\menu.php';?>
 			<?php 
 				$nota1 = $_POST['nota1'];
 				$nota2 = $_POST['nota2'];

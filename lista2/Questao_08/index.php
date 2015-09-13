@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta charset="utf-8">
-<title>PhpExercício1</title>
-</head>
+<html>
+	<?php include_once '..\..\head.php';?>
 <body>
+	<?php include_once '..\..\menu.php';?>
 	<h1 align="center">Caixa d'agua</h1>
 	<form action="resultado_volume.php" method="post">
 		

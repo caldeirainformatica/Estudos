@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<title>Estoque Médio</title>
-	</head>
-	<body>
+	<html>
+	<?php include_once '..\..\head.php';?>
+<body>
+	<?php include_once '..\..\menu.php';?>
 		<form action="resultado.php" method="post">
 			<label for="minimo">Digite o estoque mínimo</label><br />
 			<input type="number" min="0" required="required" name="minimo" id="minimo"><br />

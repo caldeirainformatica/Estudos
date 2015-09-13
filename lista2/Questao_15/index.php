@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<title>Sua Idade</title>
-	</head>
-	<body>
+	<html>
+	<?php include_once '..\..\head.php';?>
+<body>
+	<?php include_once '..\..\menu.php';?>
 		<form action="resultado.php" method="post">
 			<h1>Informe quantos segundos durou o evento</h1>
 			<label for="segundos">Dias </label><br/>

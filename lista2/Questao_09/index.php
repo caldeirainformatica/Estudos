@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<title>Insert title here</title>
-	</head>
-	<body>
+	<html>
+	<?php include_once '..\..\head.php';?>
+<body>
+	<?php include_once '..\..\menu.php';?>
 		<form action="resultado.php" method="post">
 			<h1>Digite as duas notas e clique em avançar</h1><br />
 			<label for="numero1">Número 1</label><br />

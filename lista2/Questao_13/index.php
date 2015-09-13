@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<title>Sua Idade</title>
-	</head>
+	<html>
+	<?php include_once '..\..\head.php';?>
+<body>
+	<?php include_once '..\..\menu.php';?>
 	<body>
 		<form action="resultado.php" method="post">
 			<h1>Informe quantos dias de vida você tem</h1>

@@ -1,9 +1,8 @@
 <html>
-	<head>
-		<meta charset="utf-8">
-		<title>Calculo Salarial</title>
-	</head>
-	<body>
+	<html>
+	<?php include_once '..\..\head.php';?>
+<body>
+	<?php include_once '..\..\menu.php';?>
 		<?php 
 			$nome 			= $_POST['nome'];
 			$horas			= $_POST['horas'];

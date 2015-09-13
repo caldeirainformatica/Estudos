@@ -1,10 +1,8 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<title>Calculo Salarial</title>
-	</head>
-	<body>
+	<?php include_once '..\..\head.php';?>
+<body>
+	<?php include_once '..\..\menu.php';?>
 		<form action="resultado.php" method="post">
 			<label for="nome">Nome: </label><br />
 			<input type="text" required="required" placeholder="Digite o nome do funcionário" name="nome" id="nome"><br />

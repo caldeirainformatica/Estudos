@@ -1,9 +1,8 @@
 <html>
-	<head>
-		<meta charset="utf-8">
-		<title>Insert title here</title>
-	</head>
-	<body>
+	<html>
+	<?php include_once '..\..\head.php';?>
+<body>
+	<?php include_once '..\..\menu.php';?>
 		<?php
 			$numero1 = $_POST['numero1'];
 			$numero2 = $_POST['numero2'];

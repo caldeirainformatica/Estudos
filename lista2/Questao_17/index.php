@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<title>Piloto</title>
-	</head>
+<html>
+	<?php include_once '..\..\head.php';?>
+<body>
+	<?php include_once '..\..\menu.php';?>
 	<body>
 		<h1>Ditite os dados solicitados para que o sistema efetue os cálculos</h1><br/>
 		<form action="resultado.php" method="post">

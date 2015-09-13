@@ -1,7 +1,7 @@
-<head>
-		<meta charset="utf-8">
-		<title>Sua Idade</title>
-	</head>
+<html>
+	<?php include_once '..\..\head.php';?>
+<body>
+	<?php include_once '..\..\menu.php';?>
 
 <?php
 	$dias = $_POST['dias'];
