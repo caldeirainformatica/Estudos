@@ -1,9 +1,8 @@
 <html>
-	<head>
-		<meta charset="utf-8">
-		<title>Resultado do custo do veiculos</title>
-	</head>
-	<body>
+	<html>
+	<?php include_once '..\..\head.php';?>
+<body>
+	<?php include_once '..\..\menu.php';?>
 		<?php 
 			$custo  = $_GET['custoFabrica'];
  			$distribuidor = 0.28;

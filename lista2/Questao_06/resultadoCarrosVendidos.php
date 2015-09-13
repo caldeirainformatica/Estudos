@@ -1,9 +1,8 @@
 <html>
-	<head>
-		<meta charset="utf-8">
-		<title>Resultado</title>
-	</head>
+	<html>
+	<?php include_once '..\..\head.php';?>
 	<body>
+	<?php include_once '..\..\menu.php';?>
 		<?php 
 			$carrosVendidos = $_POST['numeroCarros'];
  			$valorTotalVendas = $_POST['valorTotalVendas'];

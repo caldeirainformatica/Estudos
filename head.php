@@ -2,11 +2,11 @@
 		<meta charset="utf-8">
 		<title>RICARDO CALDEIRA 14214290044</title>
 	    
-	    <link type="text/css" rel="stylesheet" href="js/bootstrap/css/bootstrap.min.css" />
+	    <link type="text/css" rel="stylesheet" href="<?php $_SERVER['DOCUMENT_ROOT'];?>/workspace/Estudos/js/bootstrap/css/bootstrap.min.css" />
 	    
-	    <script type="text/javascript" src="js/jquery-2.1.4.js"></script>
-	    <script type="text/javascript" src="js/jquery.maskedinput.min.js"></script>
-	    <script type="text/javascript" src="js/bootstrap/js/bootstrap.min.js"></script>
+	    <script type="text/javascript" src="<?php $_SERVER['DOCUMENT_ROOT'];?>/workspace/Estudos/js/jquery-2.1.4.js"></script>
+	    <script type="text/javascript" src="<?php $_SERVER['DOCUMENT_ROOT'];?>/workspace/Estudos/js/jquery.maskedinput.min.js"></script>
+	    <script type="text/javascript" src="<?php $_SERVER['DOCUMENT_ROOT'];?>/workspace/Estudos/js/bootstrap/js/bootstrap.min.js"></script>
 	    
 	    
 	    <script type="text/javascript">

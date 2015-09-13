@@ -1,11 +1,9 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta charset="utf-8">
-<title>PhpExercício1</title>
-</head>
+	<?php include_once '..\..\head.php';?>
 <body>
-	<h1 align="center">EXERCÍCIO 1</h1>
+	<?php include_once '..\..\menu.php';?>
+	<h1 align="center" style="margin-top: 60px;">EXERCÍCIO 1</h1>
 	<form action="exercicio1.php" method="post">
 		<label for="nome">Aluno: </label><input type="text" required="true" autocomplete="off" placeholder="Digite o nome do aluno" id="nome" name="nome">
 		<br />

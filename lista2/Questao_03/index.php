@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta charset="utf-8">
-<title>Calculo Salarial</title>
-</head>
+<html>
+	<?php include_once '..\..\head.php';?>
 <body>
+	<?php include_once '..\..\menu.php';?>
 	<?php 
 		if (!empty($_POST)){
 			$salarioAtual 		= $_POST ['salarioAtual'];
