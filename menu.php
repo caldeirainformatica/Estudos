@@ -40,6 +40,7 @@
               <ul class="dropdown-menu">
                 <li><a href="<?php $_SERVER['DOCUMENT_ROOT']?>/workspace/Estudos/lista3/exercicio_01">Exercício 1</a></li>
                 <li><a href="<?php $_SERVER['DOCUMENT_ROOT']?>/workspace/Estudos/lista3/exercicio_02">Exercício 2</a></li>
+                <li><a href="<?php $_SERVER['DOCUMENT_ROOT']?>/workspace/Estudos/lista3/exercicio_03">Exercício 3</a></li>
               </ul>
             </li>
           </ul>
