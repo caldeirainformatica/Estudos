@@ -4,7 +4,7 @@ include_once "$_SERVER[DOCUMENT_ROOT]/workspace/Estudos/head.php";
 
 
 	$salario = $_POST['salario'];
-//	echo $salario;
+	echo $salario;
 ?>
 <html>
 	<body>
@@ -19,8 +19,9 @@ include_once "$_SERVER[DOCUMENT_ROOT]/workspace/Estudos/head.php";
 					<div class="panel-body">
 						<form action="" class="form-inline" method="post">
 							<?php 
-							if ($salario>= 1000.00){
-								echo '<h1><kbd>Você não tem direito a aumento.</kbd></h1>';
+							if ($salario<= 2000.00){
+								$salario = $salario*1.5;
+								echo '<h1><kbd>O seu novo salário é: R$ ' . number_format($salario,2,'.',',') . '</kbd></h1>';
 							}else{
 								$salario = $salario*1.3;
 								echo '<h1><kbd>O seu novo salário é: R$ ' . number_format($salario,2,'.',',') . '</kbd></h1>';
