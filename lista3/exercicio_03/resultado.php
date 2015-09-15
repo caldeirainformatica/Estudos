@@ -6,7 +6,7 @@ include_once "$_SERVER[DOCUMENT_ROOT]/workspace/Estudos/head.php";
 	$numero1 = $_POST['numero1'];
 	$numero2 = $_POST['numero2'];
 	$numero3 = $_POST['numero3'];
-	$maior = 0;
+	$maior = -999999999999;
 	
 	if ($numero1 > $maior){
 		$maior = $numero1;
