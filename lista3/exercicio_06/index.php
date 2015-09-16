@@ -12,13 +12,95 @@
 						<div class="panel panel-info">
 							<div class="panel-heading"><font color="blue"><h2 align="center">Exercício 3</h2></font></div>
 						<div class="panel-body">
-							<form action="resultado.php" class="form-inline" method="post">
-								<label for="numero1">Informe o primeiro número<br></label>
-								<input type="number" required="required" id="numero1" name="numero1">
-								<label for="numero2">Informe o segundo número<br></label>
-								<input type="number" required="required" id="numero2" name="numero2">
-								<label for="numero3">Informe o terceiro número<br></label>
-								<input type="number" required="required" id="numero3" name="numero3">
+							<form action="resultado.php" method="post">
+								<h4 align="center"><label for="identificacao">Informe a identificação do aluno</label></h4>
+								<input autofocus="autofocus" class="form-control text-uppercase"  type="text" required="required" id="identificacao" name="identificacao"><br/>
+								
+								
+								
+								<div class="col-md-4 col-sm-16 col-xs-16"">
+									<div class="panel panel-success">
+										<div class="panel-heading">
+											<font color="black"><p align="center"><label for="nota1">Nota 1</label></p></font>
+										</div>
+										<div class="panel-body">
+											<input type="number" min="0" required="required" id="nota1" name="nota1" class="form-inline">
+										</div>
+									<div class="panel-footer"></div>
+								
+								</div>
+								</div>
+										
+								
+								<div class="col-md-4 col-sm-16 col-xs-16"">
+								<div class="panel panel-success">
+										<div class="panel-heading">
+											<font color="black"><p align="center"><label for="nota2">Nota 2</label></p></font>
+										</div>
+										<div class="panel-body">
+											<input type="number" min="0" required="required" id="nota2" name="nota2" class="form-inline">
+										</div>
+									<div class="panel-footer"></div>
+								
+								</div>
+								</div>
+								<div class="col-md-4 col-sm-16 col-xs-16">
+								<div class="panel panel-success">
+										<div class="panel-heading">
+											<font color="black"><p align="center"><label for="nota3">Nota 3</label></p></font>
+										</div>
+										<div class="panel-body">
+											<input type="number" min="0" required="required" id="nota3" name="nota3" class="form-inline">
+										</div>
+									<div class="panel-footer"></div>
+								
+								</div>
+								</div>
+
+
+
+
+
+								
+								<div class="col-md-4 col-sm-16 col-xs-16"">
+									<div class="panel panel-success">
+										<div class="panel-heading">
+											<font color="black"><p align="center"><label for="trabalho1">Trabalho 1</label></p></font>
+										</div>
+										<div class="panel-body">
+											<input type="number" min="0" required="required" id="trabalho1" name="trabalho1" class="form-inline">
+										</div>
+									<div class="panel-footer"></div>
+								
+								</div>
+								</div>
+										
+								
+								<div class="col-md-4 col-sm-16 col-xs-16"">
+								<div class="panel panel-success">
+										<div class="panel-heading">
+											<font color="black"><p align="center"><label for="trabalho2">trabalho 2</label></p></font>
+										</div>
+										<div class="panel-body">
+											<input type="number" min="0" required="required" id="trabalho2" name="trabalho2" class="form-inline">
+										</div>
+									<div class="panel-footer"></div>
+								
+								</div>
+								</div>
+								<div class="col-md-4 col-sm-16 col-xs-16">
+								<div class="panel panel-success">
+										<div class="panel-heading">
+											<font color="black"><p align="center"><label for="trabalho3">trabalho 3</label></p></font>
+										</div>
+										<div class="panel-body">
+											<input type="number" min="0" required="required" id="trabalho3" name="trabalho3" class="form-inline">
+										</div>
+									<div class="panel-footer"></div>
+								
+								</div>
+								</div>
+								
 						</div>
 						<div class="panel-footer">
 								<button type="submit" class="btn btn-success" name="enviar">Enviar</button>
