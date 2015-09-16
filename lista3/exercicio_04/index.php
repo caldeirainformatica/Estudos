@@ -13,12 +13,12 @@
 							<div class="panel-heading"><font color="blue"><h2 align="center">Exercício 3</h2></font></div>
 						<div class="panel-body">
 							<form action="resultado.php" class="form-inline" method="post">
-								<label for="numero1">Informe o primeiro número<br></label>
-								<input type="number" required="required" id="numero1" name="numero1">
-								<label for="numero2">Informe o segundo número<br></label>
-								<input type="number" required="required" id="numero2" name="numero2">
-								<label for="numero3">Informe o terceiro número<br></label>
-								<input type="number" required="required" id="numero3" name="numero3">
+								<label for="quantidadePessoas">Informe o quantitativo de pessoas</label><br/>
+								<input type="number" required="required" id="quantidadePessoas" name="quantidadePessoas"><br/>
+								<label for="tulipas">Informe o quantitativo de tulipas</label><br/>
+								<input type="number" required="required" id="tulipas" name="tulipas"><br/>
+								<label for="coberturas">Informe o quantitativo de coberturas</label><br/>
+								<input type="number" required="required" id="coberturas" name="coberturas"><br/>
 						</div>
 						<div class="panel-footer">
 								<button type="submit" class="btn btn-success" name="enviar">Enviar</button>
