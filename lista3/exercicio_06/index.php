@@ -10,7 +10,7 @@
 				<div class="row">
 					<div class="col-md-12 col-sm-4 col-xs-9">
 						<div class="panel panel-info">
-							<div class="panel-heading"><font color="blue"><h2 align="center">Exercício 3</h2></font></div>
+							<div class="panel-heading"><font color="blue"><h2 align="center">Exercício 6</h2></font></div>
 						<div class="panel-body">
 							<form action="resultado.php" method="post">
 								<h4 align="center"><label for="identificacao">Informe a identificação do aluno</label></h4>
