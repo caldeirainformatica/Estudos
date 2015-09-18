@@ -7,7 +7,7 @@
 			include_once "$_SERVER[DOCUMENT_ROOT]/workspace/Estudos/menu.php";
 		?>
 
-		<form  style="margin-top: 60px"  action="resultado.php" methodo ='posto' method="post">
+		<form  style="margin-top: 60px"  action="resultado.php"method="post">
 		<h1>Informe o seu os dados abaixo para o calculo</h1><br/>
 		
 		
