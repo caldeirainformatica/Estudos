@@ -46,8 +46,6 @@
                 <li><a href="<?php $_SERVER['DOCUMENT_ROOT']?>/workspace/Estudos/lista3/exercicio_06">Exercício 06</a></li>
                 <li><a href="<?php $_SERVER['DOCUMENT_ROOT']?>/workspace/Estudos/lista3/exercicio_07">Exercício 07</a></li>
                 <li><a href="<?php $_SERVER['DOCUMENT_ROOT']?>/workspace/Estudos/lista3/exercicio_08">Exercício 08</a></li>
-                <li><a href="<?php $_SERVER['DOCUMENT_ROOT']?>/workspace/Estudos/lista3/exercicio_09">Exercício 09</a></li>
-                <li><a href="<?php $_SERVER['DOCUMENT_ROOT']?>/workspace/Estudos/lista3/exercicio_10">Exercício 10</a></li>
               </ul>
             </li>
           </ul>
