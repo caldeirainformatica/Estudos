@@ -13,7 +13,7 @@
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
               <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Listas 2 <span class="caret"></span></a>
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Lista 4 <span class="caret"></span></a>
               <ul class="dropdown-menu">
                 <li><a href="<?php $_SERVER['DOCUMENT_ROOT']?>/workspace/Estudos/lista2/Questao_01/index.php">Exercício 01</a></li>
                 <li><a href="<?php $_SERVER['DOCUMENT_ROOT']?>/workspace/Estudos/lista2/Questao_02/index.php">Exercício 02</a></li>
@@ -36,7 +36,7 @@
               </ul>
             </li>
               <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Listas 3 <span class="caret"></span></a>
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Lista 3 <span class="caret"></span></a>
               <ul class="dropdown-menu">
                 <li><a href="<?php $_SERVER['DOCUMENT_ROOT']?>/workspace/Estudos/lista3/exercicio_01">Exercício 01</a></li>
                 <li><a href="<?php $_SERVER['DOCUMENT_ROOT']?>/workspace/Estudos/lista3/exercicio_02">Exercício 02</a></li>
@@ -46,6 +46,22 @@
                 <li><a href="<?php $_SERVER['DOCUMENT_ROOT']?>/workspace/Estudos/lista3/exercicio_06">Exercício 06</a></li>
                 <li><a href="<?php $_SERVER['DOCUMENT_ROOT']?>/workspace/Estudos/lista3/exercicio_07">Exercício 07</a></li>
                 <li><a href="<?php $_SERVER['DOCUMENT_ROOT']?>/workspace/Estudos/lista3/exercicio_08">Exercício 08</a></li>
+              </ul>
+            </li>
+              <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Lista 4 <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="<?php $_SERVER['DOCUMENT_ROOT']?>/workspace/Estudos/lista4/01">Exercício 01</a></li>
+                <li><a href="<?php $_SERVER['DOCUMENT_ROOT']?>/workspace/Estudos/lista4/02">Exercício 02</a></li>
+                <li><a href="<?php $_SERVER['DOCUMENT_ROOT']?>/workspace/Estudos/lista4/03">Exercício 03</a></li>
+                <li><a href="<?php $_SERVER['DOCUMENT_ROOT']?>/workspace/Estudos/lista4/04">Exercício 04</a></li>
+                <li><a href="<?php $_SERVER['DOCUMENT_ROOT']?>/workspace/Estudos/lista4/05">Exercício 05</a></li>
+                <li><a href="<?php $_SERVER['DOCUMENT_ROOT']?>/workspace/Estudos/lista4/06">Exercício 06</a></li>
+                <li><a href="<?php $_SERVER['DOCUMENT_ROOT']?>/workspace/Estudos/lista4/07">Exercício 07</a></li>
+                <li><a href="<?php $_SERVER['DOCUMENT_ROOT']?>/workspace/Estudos/lista4/08">Exercício 08</a></li>
+                <li><a href="<?php $_SERVER['DOCUMENT_ROOT']?>/workspace/Estudos/lista4/09">Exercício 09</a></li>
+                <li><a href="<?php $_SERVER['DOCUMENT_ROOT']?>/workspace/Estudos/lista4/10">Exercício 10</a></li>
+                <li><a href="<?php $_SERVER['DOCUMENT_ROOT']?>/workspace/Estudos/lista4/11">Exercício 11</a></li>
               </ul>
             </li>
           </ul>
