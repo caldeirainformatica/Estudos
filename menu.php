@@ -13,7 +13,7 @@
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
               <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Lista 4 <span class="caret"></span></a>
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Lista 2 <span class="caret"></span></a>
               <ul class="dropdown-menu">
                 <li><a href="<?php $_SERVER['DOCUMENT_ROOT']?>/workspace/Estudos/lista2/Questao_01/index.php">Exercício 01</a></li>
                 <li><a href="<?php $_SERVER['DOCUMENT_ROOT']?>/workspace/Estudos/lista2/Questao_02/index.php">Exercício 02</a></li>
@@ -62,6 +62,13 @@
                 <li><a href="<?php $_SERVER['DOCUMENT_ROOT']?>/workspace/Estudos/lista4/09">Exercício 09</a></li>
                 <li><a href="<?php $_SERVER['DOCUMENT_ROOT']?>/workspace/Estudos/lista4/10">Exercício 10</a></li>
                 <li><a href="<?php $_SERVER['DOCUMENT_ROOT']?>/workspace/Estudos/lista4/11">Exercício 11</a></li>
+              </ul>
+            </li>
+              <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Prova 1<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="<?php $_SERVER['DOCUMENT_ROOT']?>/workspace/Estudos/Prova01/index.php">Prova 01</a></li>
+                
               </ul>
             </li>
           </ul>
