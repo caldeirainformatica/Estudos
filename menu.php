@@ -68,8 +68,22 @@
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Prova 1<span class="caret"></span></a>
               <ul class="dropdown-menu">
                 <li><a href="<?php $_SERVER['DOCUMENT_ROOT']?>/workspace/Estudos/Prova01/index.php">Prova 01</a></li>
-                
               </ul>
+            </li>
+              <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Lista 5<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="<?php $_SERVER['DOCUMENT_ROOT']?>/workspace/Estudos/lista5/01">Exercício 01</a></li>
+                <li><a href="<?php $_SERVER['DOCUMENT_ROOT']?>/workspace/Estudos/lista5/02">Exercício 02</a></li>
+                <li><a href="<?php $_SERVER['DOCUMENT_ROOT']?>/workspace/Estudos/lista5/03">Exercício 03</a></li>
+                <li><a href="<?php $_SERVER['DOCUMENT_ROOT']?>/workspace/Estudos/lista5/04">Exercício 04</a></li>
+                <li><a href="<?php $_SERVER['DOCUMENT_ROOT']?>/workspace/Estudos/lista5/05">Exercício 05</a></li>
+                <li><a href="<?php $_SERVER['DOCUMENT_ROOT']?>/workspace/Estudos/lista5/06">Exercício 06</a></li>
+                <li><a href="<?php $_SERVER['DOCUMENT_ROOT']?>/workspace/Estudos/lista5/07">Exercício 07</a></li>
+                <li><a href="<?php $_SERVER['DOCUMENT_ROOT']?>/workspace/Estudos/lista5/08">Exercício 08</a></li>
+                <li><a href="<?php $_SERVER['DOCUMENT_ROOT']?>/workspace/Estudos/lista5/09">Exercício 09</a></li>
+                <li><a href="<?php $_SERVER['DOCUMENT_ROOT']?>/workspace/Estudos/lista5/10">Exercício 10</a></li>
+                </ul>
             </li>
           </ul>
         </div><!--/.nav-collapse -->
