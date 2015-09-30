@@ -29,21 +29,19 @@
 	
 	function calcula(){
 			$temp = 0;
-			$soma = 0;
-			$resultado = 0;
+			$num = array();
 			for ($cont = 1; $cont <= $_GET['input'] ; $cont++){
 				$temp = $_GET['num_'.$cont];
-				$soma = $soma + $temp;
-				
+				$num = $temp * 3;
+				echo '<h1>O triplo do numero '.$temp . ' é '.  $num . '</h1>';
 			}
 
-			$resultado = $soma / ($cont - 1);
-			return $resultado;
+			
 		}
 	
 	echo '<div class="container" style="margin-top: 60px">';
 	if (isset($_GET['enviar'])){
-		echo '<h1>A média dos números é ' . calcula() . '</h1>';
+		calcula();
 	}elseif (!empty($_GET)){
 		gerarInput($_GET['input']);
 		
