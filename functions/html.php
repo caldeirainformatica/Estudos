@@ -35,14 +35,48 @@
 		echo '<div class="container" style="margin-top: 60px">';
 		for ($cont = 1; $cont <= $quantidade ; $cont++){
 			$temp = $_POST['numero_'.$cont];
+			if ($temp < 40){
 			$num = $temp + $num;
-			
+			}
 		}
 	
 		echo '</div>';
 		return $num;
 	}
+	function verificaMaior($quantidade){
+		$maior = 0;
+		$temp = 0;
+		for ($cont = 1; $cont <= $quantidade; $cont++){
+			$temp = $_POST['numero_'.$cont];
+			if ($maior < $temp){
+				$maior = $temp;
+			}
+		}return $maior;
+	}
 
+	function verificaMenor($quantidade){
+		$menor = 0;
+		$temp = 0;
+		for ($cont = 1; $cont <= $quantidade; $cont++){
+			$temp = $_POST['numero_'.$cont];
+			if ($menor > $temp){
+				$menor = $temp;
+			}
+		}return $menor;
+	}
+	
+	function media($quantidade){
+		$soma = 0;
+		$temp = 0;
+		$media = 0;
+		for ($cont = 1; $cont <= $quantidade; $cont++){
+			$temp = $_POST['numero_'.$cont];
+			$soma = $temp+$soma;
+		}
+		$media = $soma / ($cont - 1);
+		return $media;
+	}
+	
 
 
 ?>
